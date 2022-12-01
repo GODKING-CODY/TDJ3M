@@ -5,20 +5,35 @@
 			</title>
 			<style>
 			
-				* {
-				  margin: 0;
-				  padding: 0;
-				  box-sizing: border-box;
-				}
+				
+                h4{
+                  font-size: 20px;
+                }
 			
 				#contenu {
 					display: flex;
 					flex-flow: wrap;
+					justify-content: center;
+
+
 				}
 				
 
 				.contenuItem {
+				 margin: 3px;
+				  padding: 3px;
+				  box-sizing: border-box;
+				  border-color: grey;
+				  text-align: center;
+				  border-style: solid;
+				  border-radius: 10px;
+				  background-image: linear-gradient(#4CAF50,white,white);
+				  width: calc(100%/4 - 40px);
+
+
+
 				}
+
 				
 
 				.contenuItem h4 {
@@ -46,6 +61,8 @@
 					border-color: #4CAF50;
 					border-style: solid;
 					border-width: 1px;
+					flex-shrink: unset;
+
 				}
 			
 				.menuItem a {
@@ -70,6 +87,7 @@
 				footer {
 					text-align: center;
 				}
+
 			</style>
 			
 		</head>
